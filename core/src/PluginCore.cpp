@@ -44,6 +44,8 @@ namespace polymorph::engine::api
     {
         return std::unique_ptr<ASerializableObjectFactory>(new SerializableObjectFactory());
     }
+
+
 }
 
 EXPORT_MODULE polymorph::engine::api::APlugin *createPlugin(polymorph::engine::config::XmlNode &data,
