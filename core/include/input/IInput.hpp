@@ -8,6 +8,8 @@
 #include <vector>
 #include <string>
 #include "polymorph/engine/api/plugin/Symbols.hpp"
+#include "MouseEvent.hpp"
+#include "KeyboardEvent.hpp"
 
 namespace polymorph::engine::event
 {
