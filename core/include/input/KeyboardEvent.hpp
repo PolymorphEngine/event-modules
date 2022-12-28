@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include "Event.hpp"
+#include "../Event.hpp"
 #include "KeyCode.hpp"
 #include "InputType.hpp"
 

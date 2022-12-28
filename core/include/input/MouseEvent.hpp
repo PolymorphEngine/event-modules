@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include "Event.hpp"
+#include "../Event.hpp"
 #include "MouseButton.hpp"
 #include "InputType.hpp"
 #include "polymorph/engine/types/vector/Vector2.hpp"
