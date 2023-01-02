@@ -16,7 +16,7 @@ namespace polymorph::engine::event
 ////////////////////// CONSTRUCTORS/DESTRUCTORS /////////////////////////
 
         public:
-            Event(std::string type, std::string message);
+            Event(std::string type, std::string message): type(std::move(type)), message(std::move(message)) {};
 
             virtual ~Event() = default;
 
