@@ -18,7 +18,7 @@ namespace polymorph::engine::event
 ////////////////////// CONSTRUCTORS/DESTRUCTORS /////////////////////////
 
         public:
-            MouseEvent(std::string type, std::string message);
+            MouseEvent(std::string type, std::string message) : Event(std::move(type), std::move(message)) {};
 
             ~MouseEvent() = default;
 

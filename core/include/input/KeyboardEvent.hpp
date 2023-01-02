@@ -17,7 +17,7 @@ namespace polymorph::engine::event
 ////////////////////// CONSTRUCTORS/DESTRUCTORS /////////////////////////
 
         public:
-            KeyboardEvent(std::string type, std::string message);
+            KeyboardEvent(std::string type, std::string message): Event(std::move(type), std::move(message)) {};
 
             ~KeyboardEvent() override = default;
 
